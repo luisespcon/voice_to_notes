@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+voice_notes_env/
+voice_notes_env_311/
+venv/
+ENV/
+env/
+
+# API Keys y Configuración Sensible
+.env
+*.key
+secrets/
+
+# Audio y Output Files
+audio/*.m4a
+audio/*.mp3
+audio/*.wav
+audio/*.flac
+audio/*.aac
+audio/*.ogg
+chunks/
+output/
+*.txt
+!requirements.txt
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
